@@ -1,0 +1,36 @@
+open git bash
+
+Basic unix commands helpful for navigation:
+
+cd: current directory
+cd ..: move current directory up 1 level
+cd directoryName: move into that directory. can also chain multiple moves with "/" slashes
+ls: list files of current directory
+mkdir directoryName: make a new folder with the name
+
+Git commands:
+0) clone the repo
+	1) 'git clone https://github.com/talkthetalk/hamsandwich.git'
+
+I) to check out a specific branch (if you are not already on the branch you want!):
+	1) CD into the folder that you want to check the repo out into
+	2) 'git checkout origin/gh-pages' (THIS IS LIKELY NOT NECESSARY!!! WILL TEST THIS OUT)
+	3) 'git checkout master'
+	4) 'git checkout gh-pages'
+	
+II) stage the changes your commit:
+	1) 'git add -A' This will stage all the detected changes
+	
+III) commit the changes
+	1) 'git commit -m "YOUR MESSAGE HERE"'
+	
+IV) push the changes
+	1) 'git push'
+	2) enter your GitHub username and password
+
+
+
+EXTRA) other commands:
+	1) git status
+
+
