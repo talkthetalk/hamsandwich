@@ -32,5 +32,6 @@ IV) push the changes
 
 EXTRA) other commands:
 	1) git status
-
+	2) quit out of a commit mistake = "ESC, :, w, q" or is it q w?
+	
 
