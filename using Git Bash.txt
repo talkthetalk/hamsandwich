@@ -34,4 +34,7 @@ EXTRA) other commands:
 	1) git status
 	2) quit out of a commit mistake = "ESC, :, w, q" or is it q w?
 	
+Heroku commands:
+	1) heroku login
+	3) cloning from heroku: git clone git@heroku.com:APPNAME.git -o heroku
 

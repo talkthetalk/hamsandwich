@@ -31,8 +31,8 @@ descrip = soup.find_all('td','name')
 
 
 for code,byte,name in zip(unicode, bytCode, descrip):
-    #print(code.text +", "+byte.text+", "+ name.text+", "+"#x"+code.text.replace('U+','&#x'))
-    outputHTML += "\t\t\t"+code.text.replace('U+','&#x')+"; "+name.text+"<br>\n"
+    print(code.text +", "+byte.text+", "+ name.text+", "+"#x"+code.text.replace('U+','&#x'))
+    #outputHTML += "\t\t\t"+code.text.replace('U+','&#x')+"; "+name.text+"<br>\n"
     
 
 
@@ -43,9 +43,9 @@ outputHTML += '''
 </html>
 '''
 
-Html_file= open("C:\\Users\\joseph.higgins\\Desktop\\gitRepos\\hamsandwich\\index.html","w")
-Html_file.write(outputHTML)
-Html_file.close()
+#Html_file= open("C:\\Users\\joseph.higgins\\Desktop\\gitRepos\\hamsandwich\\index.html","w")
+#Html_file.write(outputHTML)
+#Html_file.close()
 
 
     
